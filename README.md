@@ -617,6 +617,12 @@ Description này là tên cần tìm trong danh sách command khi tạo Cron tr�
 
 > Nếu action mới chưa xuất hiện trong Cron UI, cần reload/restart backend action service theo quy trình vận hành của OPNsense rồi mở lại trang Cron.
 
+**Reload Configd**
+
+```
+service configd restart
+```
+
 ---
 
 ## 13. Cấu hình Cron trên OPNsense Web UI
